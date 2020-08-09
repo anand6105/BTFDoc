@@ -43,6 +43,21 @@ This project has been developed as part of Google Summer of Codes 2020. The foll
 * Testing and Documentation of the features developed as part of RTParallella and CDGen tool.
 
 
+
+Scope
+=====
+
+The documentaion with include the following:
+
+* Overview of the Adapteva Parallella board along with the development environment setup.
+* BTF Specification and its adaptation in the project.
+* Implementation details of the tracing framework and synchronisation between multiple cores.
+* Usage of tracing framework for different system models and hardware platforms.
+* Memory mapping of the BTF trace framework on Adapteva Parallella.
+* Feature extension of tracing framework on CDGen tool.
+* Limitations and future scope of work.
+
+
 Index
 =====
 
