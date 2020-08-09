@@ -11,19 +11,13 @@ BTF Trace Generation Framework on RTFParallella : documentation
 Introduction
 ############
 
-The purpose of this project is to implement a tracing framework based on the
-Best Trace Format(BTF) to enable the debugging and timing analysis of the tasks
-executed on multicore heterogeneous platform. The framework has been developed 
-as an extension to the RTFParallella. The documentation for the RTFParallella 
+The purpose of this project is to implement a tracing framework based on the Best Trace Format(BTF) to enable the debugging and timing analysis of the tasks executed on multicore heterogeneous platform. The framework has been developed as an extension to the RTFParallella. The documentation for the RTFParallella 
 is available at `RTFParallella documentation`_.
 
 
-The source code for the changes related to RTFParallella is available in Eclipse
-APP4MC `example repository`_.
+The source code for the changes related to RTFParallella is available in Eclipse APP4MC `example repository`_.
 
-The project also involves extending the existing CDGen application to generate the
-code for the provided System Model along with the BTF trace framework. The documentation
-for the CDGen application is available at `CDGen documentation`_.
+The project also involves extending the existing CDGen application to generate the code for the provided System Model along with the BTF trace framework. The documentation for the CDGen application is available at `CDGen documentation`_.
 
 
 The source code for the changes related to CDGen is available in Eclipse APP4MC `tools repository`_.
@@ -32,18 +26,13 @@ The source code for the changes related to CDGen is available in Eclipse APP4MC 
 What is Best Trace Format (BTF)
 ===============================
 
-The Best Trace Format is a tracing format for timing evaluation of event based system. It is a 
-Comma Separated Value (CSV) based format for representation of event-traces in ASCII. It allows
-analyzing the behavior of the system in a chronologically correct manner in order to apply 
-timing, performance or reliablility evaluations on embedded real-time multi-core systems. The 
-specifications of this tracing format is based on OSEK Architecture.
+The Best Trace Format is a tracing format for timing evaluation of event based system. It is a Comma Separated Value (CSV) based format for representation of event-traces in ASCII. It allows analyzing the behavior of the system in a chronologically correct manner in order to apply timing, performance or reliablility evaluations on embedded real-time multi-core systems. The specifications of this tracing format is based on OSEK Architecture.
 
 
 Contribution
 ============
 
-This project has been developed as part of Google Summer of Codes 2020. The following tasks has 
-been achieved as part of extension to existing RTFParallella framework and CDGen tool.
+This project has been developed as part of Google Summer of Codes 2020. The following tasks has been achieved as part of extension to existing RTFParallella framework and CDGen tool.
 
 * Implement the basic specification of BTF over RTFParallella framework.
 * Create a tracing framework based on the BTF specification independent of the hardware platform.
@@ -57,6 +46,9 @@ been achieved as part of extension to existing RTFParallella framework and CDGen
 Index
 =====
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 .. toctree::
    :maxdepth: 2
    
