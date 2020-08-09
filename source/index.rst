@@ -47,7 +47,7 @@ This project has been developed as part of Google Summer of Codes 2020. The foll
 Scope
 =====
 
-The documentaion with include the following:
+The documentation will include the following:
 
 * Overview of the Adapteva Parallella board along with the development environment setup.
 * BTF Specification and its adaptation in the project.
