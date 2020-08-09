@@ -6,6 +6,15 @@
 # full list see the documentation:
 # http://www.sphinx-doc.org/en/master/config
 
+
+import sphinx_rtd_theme
+
+extensions = [
+    "sphinx_rtd_theme",
+    "sphinx.ext.autosectionlabel"
+]
+
+
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
