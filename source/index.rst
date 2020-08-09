@@ -62,7 +62,19 @@ Index
    
    adapteva_parallella 
 
-   dev_setup 
+   dev_setup
+
+   btf_spec
+
+   trace_framework
+
+   memory_mapping
+
+   sys_model
+
+   run
+
+   example 
 
 
 
