@@ -80,8 +80,10 @@ Building RTFParallella Using Command Line Interface
 
 * Clone the repository from Eclipse APP4MC `example repository <https://git.eclipse.org/c/app4mc/org.eclipse.app4mc.examples.git/>`_.
 
+
 .. code-block:: bash
 
+   ./patch_init.sh
    cd src/parallella
    make all
 
