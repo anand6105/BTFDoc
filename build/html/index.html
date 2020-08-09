@@ -1,0 +1,155 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>BTF Trace Generation Framework on RTFParallella : documentation &#8212; BTF Trace Generation Framework on RTFParallella 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Adapteva Parallella" href="parallella_hardware.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="btf-trace-generation-framework-on-rtfparallella-documentation">
+<h1>BTF Trace Generation Framework on RTFParallella : documentation<a class="headerlink" href="#btf-trace-generation-framework-on-rtfparallella-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>The purpose of this project is to implement a tracing framework based on the
+Best Trace Format(BTF) to enable the debugging and timing analysis of the tasks
+executed on multicore heterogeneous platform. The framework has been developed
+as an extension to the RTFParallella. The documentation for the RTFParallella
+is available at <a class="reference external" href="https://rtfparallella.readthedocs.io/en/latest/">RTFParallella documentation</a>.</p>
+<p>The source code for the changes related to RTFParallella is available in Eclipse
+APP4MC <a class="reference external" href="https://git.eclipse.org/c/app4mc/org.eclipse.app4mc.examples.git/">example repository</a>.</p>
+<p>The project also involves extending the existing CDGen application to generate the
+code for the provided System Model along with the BTF trace framework. The documentation
+for the CDGen application is available at <a class="reference external" href="https://cdgendoc.readthedocs.io/en/latest/">CDGen documentation</a>.</p>
+<p>The source code for the changes related to CDGen is available in Eclipse APP4MC <a class="reference external" href="https://git.eclipse.org/c/app4mc/org.eclipse.app4mc.tools.git/">tools repository</a>.</p>
+</div>
+</div>
+<div class="section" id="what-is-best-trace-format-btf">
+<h1>What is Best Trace Format (BTF)<a class="headerlink" href="#what-is-best-trace-format-btf" title="Permalink to this headline">¶</a></h1>
+<p>The Best Trace Format is a tracing format for timing evaluation of event based system. It is a
+Comma Separated Value (CSV) based format for representation of event-traces in ASCII. It allows
+analyzing the behavior of the system in a chronologically correct manner in order to apply
+timing, performance or reliablility evaluations on embedded real-time multi-core systems. The
+specifications of this tracing format is based on OSEK Architecture.</p>
+</div>
+<div class="section" id="contribution">
+<h1>Contribution<a class="headerlink" href="#contribution" title="Permalink to this headline">¶</a></h1>
+<p>This project has been developed as part of Google Summer of Codes 2020. The following tasks has
+been achieved as part of extension to existing RTFParallella framework and CDGen tool.</p>
+<ul class="simple">
+<li>Implement the basic specification of BTF over RTFParallella framework.</li>
+<li>Create a tracing framework based on the BTF specification independent of the hardware platform.</li>
+<li>Implement the proper time scaling instead of tick count which is configurable.</li>
+<li>Establishing timing synchronization between host system and the epiphany co-processor.</li>
+<li>Visualizing the generated trace format on tools such as Eclipse Trace Compass.</li>
+<li>Feature enhancement of CDGen tool to add code generation of tracing functionality.</li>
+<li>Testing and Documentation of the features developed as part of RTParallella and CDGen tool.</li>
+</ul>
+</div>
+<div class="section" id="index">
+<h1>Index<a class="headerlink" href="#index" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="parallella_hardware.html">Adapteva Parallella</a></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">BTF Trace Generation Framework on RTFParallella</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="parallella_hardware.html">Adapteva Parallella</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="parallella_hardware.html" title="next chapter">Adapteva Parallella</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Anand Prakash.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
