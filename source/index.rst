@@ -59,11 +59,10 @@ Index
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-.. toctree::
-   :maxdepth: 2
    
-   adapteva_parallella  
+   adapteva_parallella 
+
+   dev_setup 
 
 
 
