@@ -1,2 +1,2 @@
-CDGEN Feature Extension
+CDgen Feature Extension
 =======================

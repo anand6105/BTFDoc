@@ -14,6 +14,8 @@ RTFP requires the following dependencies to allow successful compilation and dep
 *	ESDK (Epiphany SDK) : v2016.11. 
 *	Linaro cross GCC toolchain.
 
+.. _parallella_setup:
+
 Environment setup
 ------------------------------------
 
