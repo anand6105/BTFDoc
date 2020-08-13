@@ -80,6 +80,11 @@ This sections provides information about the supported entities and events in th
   |    TERMINATE   |                 Process instance has finished execution              |  Core  |
   +----------------+----------------------------------------------------------------------+--------+
 
+
+.. image:: ../images/task.png
+        :align: center
+
+
 * RUNNABLE EVENTS
 
   A Runnable event is an atomic task executed within a Task Event. A task consists of multiple Runnables.
@@ -99,6 +104,10 @@ This sections provides information about the supported entities and events in th
   +----------------+----------------------------------------------------------------------+----------+
 
 
+.. image:: ../images/runnable.png
+        :align: center
+
+  
 * SIGNAL EVENTS
 
   A signal is a label, which can be accessed by a process instance. 
