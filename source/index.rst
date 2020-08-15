@@ -85,6 +85,7 @@ Index
 
    example 
 
+   limitation
 
 
 .. _RTFParallella documentation: https://rtfparallella.readthedocs.io/en/latest/
