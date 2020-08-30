@@ -15,5 +15,6 @@ Future Work
 -----------
 
 * Support for wider range of time scaling factor.
-* Adding the support for multiple hardware cores in the tracing framework.
+* Adding the support for more than two hardware cores in the tracing framework.
 * Reducing the memory footprint used by each packet of the BTF trace data.
+* Adding the tracing framework support for other schedulers like FreeRTOS and POSIX in CdGen tool.

@@ -125,7 +125,7 @@ The entity type table can be dumped into the trace file using the below function
    void write_btf_trace_header_entity_type_table(FILE *stream);
 
 
-The detailed documentation of the BTF trace framework APIs can be found here.
+The detailed documentation of the BTF trace framework APIs can be found `here <https://git.eclipse.org/c/app4mc/org.eclipse.app4mc.examples.git/tree/RTFParallella/docs>`_.
 
 
 

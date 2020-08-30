@@ -22,6 +22,8 @@ The project also involves extending the existing CDGen application to generate t
 
 The source code for the changes related to CDGen is available in Eclipse APP4MC `tools repository`_.
 
+The github link for the RTFParallella and CdGen changes are available at `Github RTFParallella <https://github.com/anand6105/RTFParallella.git>`_  and `Github Cdgen <https://github.com/anand6105/cdgen.git>`_ respectively.
+
 
 What is Best Trace Format (BTF)
 ===============================

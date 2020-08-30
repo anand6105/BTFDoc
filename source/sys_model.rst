@@ -143,7 +143,7 @@ The synchronization between the epiphany cores as well as between the epiphany c
 
 This function make use of Epiphany SDK mutex implementation and software interrupt to achieve the synchronization.
 
-The function details and the complete documentation of code can be found at this link.
+The function details and the complete documentation of code can be found at this `link <https://git.eclipse.org/c/app4mc/org.eclipse.app4mc.examples.git/tree/RTFParallella/docs>`_.
 
 
 

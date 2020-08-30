@@ -28,7 +28,7 @@ Usage
 * Select the scheduler(RMS), task preemption, file source of corresponding scheduler and Model of choice.
 * Check the Enable BTF check box.
 * Click start for code generation.
-* Use the code in place of the src directory in below setup.
+* Manually copy the generated code to the latest RTFParallella framework having tracing framework functionality.
 * Build, deploy and Run the code on Parallella.
 
 
